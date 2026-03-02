@@ -90,6 +90,8 @@ make clean
 
 ## Demo Video
 
+https://github.com/user-attachments/assets/edfea0b1-3eb8-4e86-8395-261a66a70798
+
 ## Troubleshooting
 
 - If Qt plugin errors appear (`xcb`), rebuild and run through the launcher:
