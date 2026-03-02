@@ -1,0 +1,44 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug triangulation (make + gdb)",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/triangulation",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "preLaunchTask": "make: build triangulation",
+      "environment": [
+        {
+          "name": "LD_LIBRARY_PATH",
+          "value": ""
+        },
+        {
+          "name": "LD_PRELOAD",
+          "value": ""
+        },
+        {
+          "name": "LD_RUN_PATH",
+          "value": ""
+        },
+        {
+          "name": "SNAP_LIBRARY_PATH",
+          "value": ""
+        },
+        {
+          "name": "QT_PLUGIN_PATH",
+          "value": ""
+        },
+        {
+          "name": "QT_QPA_PLATFORM_PLUGIN_PATH",
+          "value": "/usr/lib/x86_64-linux-gnu/qt5/plugins/platforms"
+        }
+      ],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "miDebuggerPath": "/usr/bin/gdb"
+    }
+  ]
+}

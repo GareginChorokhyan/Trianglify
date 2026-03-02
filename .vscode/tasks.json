@@ -1,0 +1,49 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "make: build triangulation",
+      "type": "shell",
+      "command": "make",
+      "args": [
+        "triangulation"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}",
+        "env": {
+          "LD_LIBRARY_PATH": "",
+          "LD_PRELOAD": "",
+          "LD_RUN_PATH": "",
+          "SNAP_LIBRARY_PATH": "",
+          "QT_PLUGIN_PATH": ""
+        }
+      },
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": [
+        "$gcc"
+      ]
+    },
+    {
+      "label": "make: clean",
+      "type": "shell",
+      "command": "make",
+      "args": [
+        "clean"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}",
+        "env": {
+          "LD_LIBRARY_PATH": "",
+          "LD_PRELOAD": "",
+          "LD_RUN_PATH": "",
+          "SNAP_LIBRARY_PATH": "",
+          "QT_PLUGIN_PATH": ""
+        }
+      },
+      "problemMatcher": []
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "terminal.integrated.env.linux": {
+    "LD_LIBRARY_PATH": null,
+    "LD_PRELOAD": null,
+    "LD_RUN_PATH": null,
+    "SNAP_LIBRARY_PATH": null,
+    "QT_PLUGIN_PATH": null,
+    "QT_QPA_PLATFORM_PLUGIN_PATH": "/usr/lib/x86_64-linux-gnu/qt5/plugins/platforms"
+  }
+}
