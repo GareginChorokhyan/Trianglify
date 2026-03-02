@@ -90,6 +90,7 @@ make clean
 
 ## Demo Video
 
+<<<<<<< HEAD
 Add your demo video after recording:
 
 - If uploaded online (YouTube, Drive, etc.), paste the URL here.
@@ -100,6 +101,9 @@ Example:
 ```md
 [Watch Demo](https://your-demo-link)
 ```
+=======
+https://github.com/user-attachments/assets/edfea0b1-3eb8-4e86-8395-261a66a70798
+>>>>>>> 107a6feb7c2e3eca313b1abb87f81b697157c207
 
 ## Troubleshooting
 
