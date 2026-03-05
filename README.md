@@ -90,7 +90,7 @@ make clean
 
 ## Demo Video
 
-https://github.com/user-attachments/assets/1ea4f222-fe6c-46c1-8f8f-2fc4bcbeb3a4
+[!video demo](https://github.com/user-attachments/assets/1ea4f222-fe6c-46c1-8f8f-2fc4bcbeb3a4)
 
 ## Troubleshooting
 
